@@ -1,0 +1,9 @@
+#################################
+# TypeScript Chrome App Starter #
+#################################
+
+Hey there everyone, welcome to my starter setup for making chrome apps with TypeScript. Before you get started, you will need:
+
+* node
+* typescript
+* chrome

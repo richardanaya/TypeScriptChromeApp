@@ -1,0 +1,15 @@
+{
+  "name": "Application",
+  "description": "",
+  "manifest_version": 2,
+  "version": "0.1",
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  },
+  "icons": {
+    "16": "images/app-icon_16.png",
+    "128": "images/app-icon_128.png"
+  }
+}
