@@ -19,5 +19,5 @@ What's included:
 To run simply:
 sh compile.sh
 
-You make a chrome app by loading an unpacked manifest in the Settings -> Extension page ( after clicking the developer mode checkbox )
+You make a chrome app by loading an unpacked manifest in the Settings -> Extension page ( after clicking the developer mode checkbox ).  You should load the unpacked extension from the "app" folder, AFTER you have compiled.  Once you do this once, you can just hit refresh after every compile.sh call.
 
