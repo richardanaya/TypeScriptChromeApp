@@ -7,3 +7,17 @@ Hey there everyone, welcome to my starter setup for making chrome apps with Type
 * node
 * typescript
 * chrome
+* Bash terminal ( msysgit is a great project for windows )
+
+What's included:
+
+* Reset CSS ( blank slate styles )
+* Require JS
+* JQuery hookups
+* Default chrome app setup
+
+To run simply:
+sh compile.sh
+
+You make a chrome app by loading an unpacked manifest in the Settings -> Extension page ( after clicking the developer mode checkbox )
+

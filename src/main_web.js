@@ -2,7 +2,9 @@ requirejs([
     'application'
     ],
     function (application) {
-    	var app = new application.Application();
-    	app.start();
+    	$(document).ready(function(){
+	    	var app = new application.Application();
+	    	app.start();
+    	})
     }
 );

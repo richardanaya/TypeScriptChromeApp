@@ -1,9 +1,11 @@
+/// <reference path="jquery.d.ts" />
+
 export class Application {
 	constructor() {
 		
 	}
 	
 	start() {
-		console.log("Hello World!");
+		$(document.body).html("Hello World!");
 	}
 }
