@@ -1,4 +1,7 @@
 /// <reference path="jquery.d.ts" />
+/// <reference path="mustache.d.ts" />
+
+import utils = module('./utils');
 
 export class Application {
 	constructor() {
@@ -6,6 +9,7 @@ export class Application {
 	}
 	
 	start() {
-		$(document.body).html("Hello World!");
+		var s = utils.getTemplate('template-welcome');
+		$(document.body).html(s);
 	}
 }
