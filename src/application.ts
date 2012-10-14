@@ -9,7 +9,7 @@ export class Application {
 	}
 	
 	start() {
-		var s = utils.getTemplate('template-welcome');
-		$(document.body).html(s);
+		var el = utils.getTemplate('template-welcome');
+		$(document.body).append(el);
 	}
 }
