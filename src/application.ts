@@ -1,5 +1,5 @@
-/// <reference path="jquery.d.ts" />
-/// <reference path="mustache.d.ts" />
+/// <reference path="declarations/jquery.d.ts" />
+/// <reference path="declarations/mustache.d.ts" />
 
 import utils = module('./utils');
 import events = module('./events');
